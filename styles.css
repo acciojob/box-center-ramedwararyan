@@ -1,25 +1,18 @@
-/*  your css code here. If applicable */
- body {
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #f0f0f0;
-        }
-        .center-box {
-            width: 200px;
-            height: 200px;
-            background-color: lightblue;
-            border: 2px solid black;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: purple;
-            font-size: 18px;
-            font-weight: bold;
-		}
+div {
+    position: absolute; /* Use absolute positioning */
+    left: 50%; /* Move to the middle of the viewport */
+    top: 50%; /* Move to the middle of the viewport */
+    width: 200px; /* Set width */
+    height: 200px; /* Set height */
+    border: 2px solid black; /* Set border */
+    background-color: lightblue; /* Set background color */
+    transform: translate(-50%, -50%); /* Center the box */
+}
+
+p {
+    color: purple; /* Set text color */
+    position: absolute; /* Use absolute positioning for centering text */
+    top: 50%; /* Move to the middle */
+    left: 50%; /* Move to the middle */
+    transform: translate(-50%, -50%); /* Center the text */
+}
