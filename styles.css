@@ -7,7 +7,7 @@
             height: 100vh;
             background-color: #f0f0f0;
         }
-        div.center-box {
+        .center-box {
             width: 200px;
             height: 200px;
             background-color: lightblue;
@@ -22,3 +22,4 @@
             color: purple;
             font-size: 18px;
             font-weight: bold;
+		}
